@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <title>ISDI Calculadora</title>
+    <link type="text/css" href="styles/style.css" rel="stylesheet">
+</head>
+
+<body onload="iniciamosCalculadoraPro();">
+    <div class="container">
+        <table class="calculadora">
+            <tr>
+                <td colspan="2" id="showOperation"></td>
+                <td colspan="2" class = "ISDI"> ISDI Maths </td>              
+            </tr>
+            <tr>
+                <td colspan="4"><span id="resultado"></span></td>
+            </tr>
+            <tr>
+                <td><button id="reset" class="test">C</button></td>
+                <td><button id="root">√</button></td>
+                <td><button id="divi">/</button></td>
+                <td><button id="multi">*</button></td>
+            </tr>
+            <tr>
+                <td><button id="seven">7</button></td>
+                <td><button id="eight">8</button></td>
+                <td><button id="nine">9</button></td>
+                <td><button id="minus">-</button></td>
+
+            </tr>
+            <tr>
+                <td><button id="four">4</button></td>
+                <td><button id="five">5</button></td>
+                <td><button id="six">6</button></td>
+                <td><button id="suma">+</button></td>
+
+            </tr>
+            <tr>
+                <td><button id="one">1</button></td>
+                <td><button id="two">2</button></td>
+                <td><button id="three">3</button></td>
+                <td colspan="3"><button class="igual" id="equal">=</button></td>
+            </tr>
+            <tr>
+                <td></td>
+                <td><button id="cero">0</button></td>
+                <td><button id="punto">.</button></td>
+            </tr>
+
+        </table>
+    </div>
+    <script src="main.js"></script>
+</body>
+
+</html>
